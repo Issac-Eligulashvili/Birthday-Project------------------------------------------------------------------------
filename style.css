@@ -1,0 +1,40 @@
+.sb-cont {
+    background-color: rgb(31, 31, 31);
+    height: 40px;
+}
+
+.sb-bg {
+    background-color: rgb(66, 66, 66); 
+    height: 30px;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.sb-logo {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 22px 0 10px;
+}
+
+.anim-typewriter {
+    position: relative;
+}
+
+.anim-typewriter::after {
+    content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgb(66, 66, 66) ;
+  border-left: 2px solid #c4c4c4;
+  animation: typing 3s steps(48) forwards;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+    }
+  }

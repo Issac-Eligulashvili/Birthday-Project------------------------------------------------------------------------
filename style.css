@@ -1,3 +1,7 @@
+body {
+    background: #000;
+}
+
 .sb-cont {
     background-color: rgb(31, 31, 31);
     height: 40px;
@@ -37,4 +41,12 @@
     100% {
         left: 100%;
     }
+  }
+
+  .circle {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    transform: rotateX(87deg) ;
   }

@@ -81,8 +81,8 @@ body {
     background-color: aqua;
   }
 
-.carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(69%) }
-.carousel__cell:nth-child(2) { transform: rotateY( 72deg) translateZ(69%)}
-.carousel__cell:nth-child(3) { transform: rotateY( 144deg) translateZ(69%)}
-.carousel__cell:nth-child(4) { transform: rotateY(216deg) translateZ(69%)}
-.carousel__cell:nth-child(5) { transform: rotateY(288deg) translateZ(69%)}
+.carousel--slide:nth-child(1) { transform: rotateY(  0deg) translateZ(calc())}
+.carousel--slide:nth-child(2) { transform: rotateY( 72deg)}
+.carousel--slide:nth-child(3){ transform: rotateY( 144deg)}
+.carousel--slide:nth-child(4) { transform: rotateY(216deg)}
+.carousel--slide:nth-child(5) { transform: rotateY(288deg)}

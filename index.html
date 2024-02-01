@@ -16,6 +16,10 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -31,22 +35,29 @@
                     </div>
                 </div>
             </div>
+            <div class="subtext animate__animated animate__fadeInDown text-white text-center" id="subtext">*Press Enter To Continue</div>
         </header>
-        <main>
+        <main id="main" class="hide text-white">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 d-none d-md-block">
-                        <div class="circle"></div>
-                        <div class="scene" id="scene">
-                            <div class="carousel">
-                                <div class="carousel--slide" id="slide"></div>
-                                <div class="carousel--slide" id="slide1" ></div>
-                                <div class="carousel--slide" id="slide2"></div>
-                                <div class="carousel--slide" id="slide3"></div>
-                                <div class="carousel--slide" id="slide4"></div>
-                            </div>
+                <div class="row buttons justify-content-around text-white gx-3">
+                    <div class="col-2 btn btn-dark">1</div>
+                    <div class="col-2 btn btn-dark">2</div>
+                    <div class="col-2 btn btn-dark">3</div>
+                    <div class="col-2 btn btn-dark">4</div>
+                    <div class="col-2 btn btn-dark">5</div>
+                </div>
+                <div class="hologram-cont">
+                    <div class="row justify-content-center">
+                        <div class="col-8 justify-content-center d-flex">
+                           <div class="base position-relative justify-content-center align-items-center d-flex">
+                             <div class="inner-circle position-absolute mx-auto"></div>
+                             <div class="dashed-circle position-absolute mx-auto"></div>
+                             <div class="ring-3 position-absolute"></div>
+                             <div class="outer-circle position-absolute"></div>
+                            </div> 
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </main>

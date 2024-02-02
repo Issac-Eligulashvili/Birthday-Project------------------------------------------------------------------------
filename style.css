@@ -391,3 +391,7 @@ body {
 .info {
   padding: 10px;
 }
+
+.move {
+  bottom: -400px;
+}

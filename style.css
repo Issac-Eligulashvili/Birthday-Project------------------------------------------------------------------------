@@ -134,6 +134,7 @@ body {
 
 .bottom {
   bottom: -100px;
+  width: 100%;
 }
 
 /* COPYRIGHT HYPERPLEXED ON YT screen overlay on card */
@@ -380,3 +381,4 @@ body {
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
   }
 }
+

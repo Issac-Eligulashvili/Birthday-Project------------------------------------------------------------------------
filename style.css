@@ -382,3 +382,12 @@ body {
   }
 }
 
+.img-1 {
+  height: 300px;
+  width: 300px;
+  float: left;
+}
+
+.info {
+  padding: 10px;
+}
